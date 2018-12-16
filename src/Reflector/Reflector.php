@@ -44,12 +44,12 @@ class Reflector
     }
 
     /**
-     * @param $fn
+     * @param callable $fn
      *
      * @return int
      * @throws \ReflectionException
      */
-    private static function paramNumOfClosure(Closure $fn): int
+    private static function paramNumOfClosure(callable $fn): int
     {
         $params = (new ReflectionFunction($fn))->getParameters();
 
