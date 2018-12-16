@@ -1,5 +1,5 @@
 # Pamda
-A PHP function programming lib same as Ramda.js (php version >= 7.1)
+A PHP function programming lib same as [Ramda.js](https://ramdajs.com/) (php version >= 7.1)
 
 # install
 
@@ -15,9 +15,9 @@ use Pamda\Pamda;
 $blankTo = Pamda::curryN(3, 'preg_replace')('/\s+/');
     
 $blankToSlash = $blankTo('/');
-echo $blankToA('a b c'); // => "a/b/c"
+echo $blankToSlash('a b c'); // => "a/b/c"
 
-$blankToDash = $blankToTo('-');
+$blankToDash = $blankTo('-');
 echo $blankToDash('a b c'); // => "a-b-c"
 
 ```
