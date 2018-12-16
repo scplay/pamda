@@ -1,0 +1,1 @@
+Two Class had deprecated because php can call closure by reference, No need use Class

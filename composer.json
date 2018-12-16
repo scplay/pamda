@@ -1,0 +1,20 @@
+{
+    "name": "zeonwang/pamda",
+    "description": "function programming lib study",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zeon",
+            "email": "scplay@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pamda\\": "src/"
+        }
+    }
+}
